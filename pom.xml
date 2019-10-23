@@ -11,6 +11,7 @@
   <modules>
     <module>api</module>
     <module>dao</module>
+      <module>common</module>
   </modules>
 
   <name>distributed-db-parent</name>
