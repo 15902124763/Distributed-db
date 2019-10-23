@@ -10,6 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>api</module>
+    <module>dao</module>
   </modules>
 
   <name>distributed-db-parent</name>
@@ -163,7 +164,7 @@
       <artifactId>spring-kafka</artifactId>
       <version>2.2.0.RELEASE</version>
     </dependency>
-    <!-- 邮件服务 -->
+    <!-- springboot mail -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-mail</artifactId>
